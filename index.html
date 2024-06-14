@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Css files/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css files/main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img class="w-25" src="./Photos/logo.png" alt="" /> Weather</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="home" class="home py-5">
+        <div class="container py-5">
+          <div class="search-input input position-relative mt-5">
+            <input
+              type="text"
+              id="searchInput"
+              class="form-control p-3 bg-dark text-white border-0 rounded-5"
+              placeholder="Enter Your Location"
+            />
+            <button
+              class="btn btn-primary findBtn py-2 px-sm-5 rounded-5 position-absolute"
+            >
+              Find
+            </button>
+          </div>
+          <div class="weatherData mt-5">
+            <div class="row g-0" id="datarow">
+              <div class="col-lg-4" id="todayData"></div>
+              <div class="col-lg-8">
+                <div class="row g-0" id="otherDaysData"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="input position-relative">
+              <input
+                type="email"
+                class="form-control p-3 bg-dark text-white border-0 rounded-5"
+                placeholder="Enter Your Email"
+                required
+              />
+              <button
+                type="submit"
+                class="btn btn-primary findBtn py-2 px-sm-3 rounded-5 position-absolute"
+              >
+                subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="social-icons">
+              <ul class="list-unstyled d-flex justify-content-center gap-3">
+                <li>
+                  <span><i class="fa-brands fa-facebook-f"></i></span>
+                </li>
+                <li>
+                  <span><i class="fa-brands fa-instagram"></i></span>
+                </li>
+                <li>
+                  <span><i class="fa-brands fa-google-plus-g"></i></span>
+                </li>
+                <li>
+                  <span><i class="fa-brands fa-pinterest"></i></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-white-50 text-center mt-5">
+          <p>
+            Copyright 2024 . Designed by Moahmed Ashraf. All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./Js files/bootstrap.bundle.min.js"></script>
+    <script src="./Js files/index.js"></script>
+  </body>
+</html>

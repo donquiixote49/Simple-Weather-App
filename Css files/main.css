@@ -1,0 +1,156 @@
+body{
+    color: white;
+    letter-spacing: 1.5px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/** navbar start   */
+
+.nav-link{
+    color: white;
+    margin-right: 1.563rem;
+    transition: all .2s ease-in;
+    font-weight: 300;
+
+}
+
+
+.navbar-brand{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+color: #009ad8;
+
+
+
+
+
+}
+
+
+
+.nav-link:hover {
+    color: #009ad8;
+    
+}
+
+/** navbar end   */
+
+
+
+
+/** home section start   */
+
+
+
+.home {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.507)),
+    url(../Photos/cairo\ at\ sunset\ time.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.input input::placeholder {
+    color: #ffffff7f;
+}
+
+
+
+
+.findBtn{
+    right: 0.5rem;
+    top: 0.5rem;
+    
+}
+
+
+
+
+.card{
+    min-height:19.75rem;
+    background-color: red;
+}
+
+
+.card .card-header {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.today-card  .max-deg{
+font-size: 4.063rem;
+font-weight: 300;
+}
+
+.status{
+    color: #009ad8;
+}
+
+.other-card h4 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+
+/** home section end  */
+
+
+/** Footer Start   */
+
+
+.site-footer{
+    background-color: #262936;
+}
+
+
+ul span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #221b1b;
+    color: #009ad8;
+    font-size: 1.25rem;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 200ms ease-in-out
+  }
+  
+  ul span:hover {
+    background-color: #009ad8;
+    color: #fff;
+  }
+
+
+
+  .copyright p {
+    font-weight: 200;
+  }
+
+
+/** Footer End   */
+
+
+/** media start   */
+
+
+@media  (max-width : 991px) {
+    .social-icons{
+        margin-top: 1.5rem;
+        
+    }
+
+}
+
+
+/** media end   */
